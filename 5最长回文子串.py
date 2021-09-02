@@ -1,9 +1,5 @@
 class Solution(object):
     def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
         temp = ''
         for i in range(len(s)):
             for j in range(i,len(s)):
